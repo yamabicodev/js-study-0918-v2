@@ -8,21 +8,21 @@
   <body>
     <h1>TODOリスト</h1>
     <div class="input-area">
-      <input type="text" placeholder="TODOを入力" />
-      <button>追加</button>
+      <input id="add-text" type="text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
     </div>
     <div class="imcompleted-area">
       <h3 class="title">未完了のTODO一覧</h3>
-      <ul>
-        <li>
-          <div class="list-row">
+      <ul id="imcompleted-list">
+        <li class="list-row">
+          <div>
             <p>TODOです。</p>
             <button>追加</button>
             <button>削除</button>
           </div>
         </li>
-        <li>
-          <div class="list-row">
+        <li class="list-row">
+          <div>
             <p>TODOです。</p>
             <button>追加</button>
             <button>削除</button>
@@ -33,8 +33,8 @@
     <div class="completed-area">
       <h3 class="title">完了のTODO一覧</h3>
       <ul>
-        <li>
-          <div class="list-row">
+        <li class="list-row">
+          <div>
             <p>TODOです。</p>
             <button>戻す</button>
           </div>
